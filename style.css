@@ -1,0 +1,348 @@
+*{
+  margin : 0; 
+  padding : 0; 
+  box-sizing : border-box; 
+  font-family : "Nimbus Sans L"; 
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #F4F4F4;
+    /* overflow-x: hidden; */
+    letter-spacing: -0.2px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main{
+    width: 100%;
+}
+
+.nav{
+    height: 8vh;
+    width: 100vw;
+    position: relative;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7vh 12vw;
+    font-size: smaller;
+    /* letter-spacing: -0.2px; */
+}
+
+.sub_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.4vw;
+}
+
+.sub_nav_2{
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.hero{
+    min-height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: gray; */
+    position: relative;
+    margin-top: 16vh;
+    padding: 0vh 12vw;
+}
+
+.hero1{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.hero1 p:nth-child(1){
+    line-height: 16px;
+    font-size: 12px;
+    padding-bottom: 7px;
+}
+
+.hero1 p:nth-child(1) span{
+    font-size: 18px;
+}
+
+.hero1 p:nth-child(2){
+    font-size: 13px;
+    color: gray;
+    padding-bottom: 10px;
+
+}
+
+
+.bg{
+    height: 29vh;
+    width: 10vw;
+    background-color: slateblue;
+    /* background: url("./assets/pinkgreenplant.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.hero2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.hero2 p:nth-child(1){
+    position: absolute;
+    top: -15.4vh;
+    left: -6vh;
+    font-size: 10vh;
+    line-height: 10vh;
+    letter-spacing: -5px;
+}
+
+.imagesndtext{
+    width: fit-content;
+    height: fit-content;
+    background-color: red;
+}
+
+.hero2_p{
+    position: absolute;
+    bottom: -14.4vh;
+    left: 0vh;
+    font-size: 2.6vh;
+    line-height: 3vh;
+
+}
+
+.heading{
+    z-index: 99999;
+}
+
+.bg2{
+    height: 66vh;
+    width: 22vw;
+    background-color: slateblue;
+    z-index: -1;
+}
+
+.bg3{
+    height: 29vh;
+    width: 10vw;
+    background-color: red;
+}
+
+.middle{
+    padding: 0vh 13vw;
+
+}
+
+ .section2{
+    margin: 24vh 0px 0px 0px;
+    height: 40vh;       
+ }
+
+ .our{
+    color: gray;
+    font-size: 2.7vh;
+    letter-spacing: -0.4px;
+    padding-bottom: 20px;
+ }
+ 
+
+ .bg3{
+    height: 35px;
+    width: 60px;
+    object-fit: cover;
+    object-position: left center;
+    border-radius: 40%;
+    margin: 0px 10px;
+ }
+
+ .bg4{
+    height: 42px;
+    width: 100px;
+    object-fit: cover;
+    object-position: left center;
+    border-radius: 40%;
+    margin: 0px 10px;
+ }
+
+ .bg5{
+    height: 42px;
+    width: 100px;
+    object-fit: cover;
+    object-position: left center;
+    border-radius: 40%;
+    margin: 0px 10px;
+ }
+
+ .texts{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column  ;
+    text-align: end;
+    font-size: 3.4vh;
+    line-height: 6vh;
+ }
+
+ .semi_middle{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 18vh;
+ }
+
+ .left{
+    width: 13vw;
+ }
+
+ .right{
+    width: 20vw;
+    text-align: right;
+ }
+
+ .leftbg{
+    width: 100%;
+    height: 50vh;
+    background-color: rebeccapurple;
+    background: url("./assets/sea.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+.left p:nth-child(2){
+    padding: 1.6vh 0px;
+    font-size: 3.4vh;
+}
+
+ .left p:nth-child(3){
+    font-size: 13px;
+    width: 100%;
+ }
+
+ .rightbg{
+    height: 65vh;
+    width: 20vw;
+    background-color: rebeccapurple;
+    background: url("./assets/cloud.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ .right p:nth-child(2){
+    padding: 1.6vh 0px;
+    font-size: 3.4vh;
+}
+
+ .right p:nth-child(3){
+    font-size: 13px;
+    width: 100%;
+ }
+
+
+ /* section5  */
+ 
+
+ .section5  {
+    height: 70vh;
+    width: 100vw;
+    /* background-color: grey; */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+ }
+ 
+
+ .bioimg{
+    height: 70vh;
+    width: 60%;
+}
+
+.bioimg img{
+    object-position: 70% 70%;
+     object-fit: cover;
+    height: 100%;
+    width: 100%;
+ }
+
+ .biotext{
+    width: 30%;
+    padding-left: 4vw;
+ }
+
+ .biotext p:nth-child(1){
+    font-size: 5vh;
+    padding-bottom: 18px;
+    letter-spacing: -0.2px;
+    line-height: 32px;
+ }
+
+
+
+ /* section6 */
+
+.section6 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    /* background-color: red; */
+}
+
+
+.section6 video{
+    width: 100%;
+    /* height: 100%; */
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .video{
+    z-index: 9999;
+ }
+ 
+ .video p{
+    font-size: 4.6vh;
+ }
+
+ .btn{
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 1.3vh;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.307);
+    border: 1px solid rgba(128, 128, 128, 0.307);
+ }
+ 
+ .btn:hover video{
+    opacity: 1;
+ }
